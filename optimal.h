@@ -6,6 +6,7 @@ class Optimal {
 public:
     int N;
     vector<double> ReadInput;
+    vector<vector<double>> Minimum;
     vector<vector<double>> Maximum;
     Optimal() {};
     void Read(vector<double>);
