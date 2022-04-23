@@ -29,7 +29,7 @@ int main() {
     b.print();
     cout << endl;
     cout << endl;
-    vector<double> content{ 0.5, 1, 0, 2, 2.5};
+    vector<double> content{ 0.5, 1, 0, 2, 2.5, 50, 0.01};
     Optimal c;
     c.Read(content);
     c.print();
